@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+    flex-direction: column;
+  }
+
+.title {
+    color: black;
+    font-size: 48px;
+    text-align: center;
+    margin: 30px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5%;
+}
+
+/* .imgs:hover {
+    top: -5px;
+} */
+
+.scores {
+    display: flex;
+    justify-content: center;   
+    gap: 10%;
+    font-size: 24px;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    font-size: 24px;
+}
+
+#rock, #paper, #scissor {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    position: relative;
+}
+
+#rock:hover, #paper:hover, #scissor:hover {
+    /* width: 90px;
+    height: 90px; */
+    top: -5px;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    margin: 10px
+}
+
+.resetbutton{
+    outline: 0;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 3px;
+    color: #000;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 12px 20px;
+    text-align:center;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);  
+    font-family: 'Indie Flower', cursive;
+    margin: 20px;
+}
+
+.resetbutton:hover{
+    background: rgb(251, 193, 245);
+    transform: translateY(-2px);
+}
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(251, 193, 245);
+    margin: 0;
+    padding: 20px 100px 20px 100px;
+    color: white;
+}
